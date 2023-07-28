@@ -35,6 +35,8 @@ public class User {
     @Pattern(regexp = "^[0-9]{10}$")
     private String userContactNumber;
 
+    private boolean isAdmin;
+
 
 
 
